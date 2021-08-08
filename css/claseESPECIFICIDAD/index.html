@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Document</title>
+    <meta name="robots" content="index,follow"/>
+    <meta name="description" content="Esta es una pagina de un ejercicio de html y css">
+    <title>Especificidad</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <header class="page-header">
+        <div class="frame">
+            <h1 id="page-title" class="title">Mi empresa mamalona</h1>
+            <nav>
+                <ul id="main-nav" class="nav">
+                    <li><a href="" class="home">Home</a></li>
+                    <li><a href="">Cursos</a></li>
+                    <li><a href="">Instructores</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+        <figure>
+            <img src="./Logo_adobespark (1).png" alt="Logo de la empresa, logo mamalon">
+            <figcaption>Traemos el mejor contenido para nuestros mejores clientes</figcaption>
+        </figure>
+    </header>
 </body>
 </html>
