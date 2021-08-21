@@ -1,0 +1,15 @@
+/* Colorea de rojo todas las
+etiquetas p que esten
+cercanas a un h2 */
+
+h2 + p {
+    color:red
+}
+
+/* Colorea de azul todas las
+etiquetas h3 que esten
+cercanas a un h2 */
+
+h2 ~ h3 {
+    color: blue;
+}
