@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0 80px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 11px;
+    background-color: #fff206;
+    border: 7px rgb(241 58 58) dotted;
+    position: relative;
+    bottom: 64px;
+}
+
+.content {
+    background-color: rgb(186 111 255 / 74%);
+    width: 500px;
+    height: 300px;
+    border: 7px brown dotted;
+    margin: 150px auto;
+    padding: 30px;
+    border-radius: 50px;
+    text-align: justify;
+}
+
+.content__p {
+    font-family: 'Noto Serif', serif;
+    font-size: 16px;
+    padding-top: 37px;
+}
+
+.pa {
+    bottom: 420px;
+    left: 37.5rem;
+    width: 11%;
+    height: 110px;
+    position: relative;
+}
